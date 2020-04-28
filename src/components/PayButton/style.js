@@ -6,10 +6,10 @@ export const ButtonP = styled.View`
   border-radius: 30px;
   align-items: center;
   justify-content: center;
-  background-color: ${({focused}) => (focused ? 'green' : '#CCC')};
+  background-color: ${({focused}) => (focused ? 'green' : '#BBB')};
 `;
 
 export const Label = styled.Text`
   font-size: 12px;
-  color: ${({focused}) => (focused ? '#FFF' : '#FFF')};
+  color: ${({focused}) => (focused ? '#FFF' : '#EEE')};
 `;
