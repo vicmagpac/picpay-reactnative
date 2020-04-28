@@ -5,6 +5,8 @@ export const Wrapper = styled.SafeAreaView`
   flex: 1;
 `;
 
+export const Container = styled.ScrollView``;
+
 export const Header = styled.View`
   height: 50px;
   padding: 0 16px;
@@ -13,19 +15,17 @@ export const Header = styled.View`
   justify-content: space-between;
 `;
 
-export const BalanceContainer = styled.View`
-
-`;
+export const BalanceContainer = styled.View``;
 
 export const BalanceTitle = styled.Text`
-    color: #fff;
-    font-size: 14px;
-    text-align: center;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
 `;
 
 export const Balance = styled.Text`
-    color:#fff;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
 `;
